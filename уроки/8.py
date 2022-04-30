@@ -52,9 +52,3 @@ elif text1 == '/':
 else:
     print("Невірний символ(((")
 
-
-# try:
-#
-# except IndexError:
-#
-# elif
