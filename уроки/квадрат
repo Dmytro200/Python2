@@ -1,0 +1,11 @@
+from ctb import place
+
+n = int(input("Введите размер стороны квадрата:"))
+
+if n > 0:
+  for x in range(n):
+
+    for y in range(n):
+      place(x, y, 0)
+else:
+  print("Данное значение не верно(")
