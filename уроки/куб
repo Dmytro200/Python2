@@ -1,0 +1,17 @@
+from ctb import place
+
+n = int(input("Введите размер стороны квадрата:"))
+
+if n > 0:
+  for x in range(n):
+
+    for y in range(n):
+      for z in range(n):
+        if sum((
+           x == 0 or x == n - 1,  
+           y == 0 or y == n - 1,
+           z == 0 or z == n - 1,
+        )) >= 2:
+            place(x, y, z)
+else:
+  print("Данное значение не верно(")
